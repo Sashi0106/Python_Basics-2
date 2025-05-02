@@ -264,3 +264,34 @@ proper superset: True
 superset or not: True
 proper superset: False
 ///
+#TYPE CONVERSIONS...symbols
+x=int(input())
+long(x)
+float(x)
+str(x)
+tuple(x)
+list(x)
+set(x)
+ord(x)
+chr(x)
+hex(x)
+oct(x)
+bin(x)
+dict(x)
+#operators
+()--(braces)
+**--(power)
+~ (complementary)  + (unary plus) -(unary minus)
+    *(mul) /(div) %(modulus) //(floating div)
+    +(summation) -(diff)
+    <<(left shift)
+    >>(right shift)
+&
+^ |
+<> == !=
+<= <> >=
+= %= /= //= -= += **=
+is isnot
+in notin
+and or not
+    
