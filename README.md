@@ -130,7 +130,7 @@ OUTPUT:
 42500
 42500
 ///
-#dict with tuple keys
+#dict with tuples as keys
 location={
     (40.278,-66.020):'New York',
     (30.524,-54.745):'Melbourne'}
