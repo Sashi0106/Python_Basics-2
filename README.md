@@ -1,4 +1,4 @@
-# python-basics_3
+# python-basics_2
 Basics of python in Cpt Classes under the Guidance of CODEGNAN in NRIIT
 #Arithmetic Operations
 num1=int(input())
