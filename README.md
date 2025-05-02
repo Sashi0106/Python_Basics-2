@@ -148,6 +148,19 @@ for key,value in info.items():
         print(f"key for value'{v}':{key}")
 OUTPUT:
 key for value'india':name
+or likewise.....
+info={'name':'india','num':123}
+s='india'
+for key,value in info.items():
+    if value==s: 
+        print(f"key for value:'(s)':{key}")
+s=123
+for key,value in info.items():
+    if value==s: 
+        print(f"key for value:'(s)':{key}")
+    OUTPUT:
+    key for value:'(s)':name
+    key for value:'(s)':num
 ///
 #SET OPERATIONS.........
 my_set={1,2,3,4,5,6}
