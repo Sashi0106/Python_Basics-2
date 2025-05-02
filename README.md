@@ -217,3 +217,37 @@ True
 False
 True
 ///
+#by using conditional operators
+a={1,2}
+b={1,2,3,4,5}
+print("subset or not:",a<=b)#subset
+print("proper subset or not:",a<b)#subset
+print("proper subset or not:",b<a)#subset
+print("subset or not:",b<=a)#subset
+print("superset or not:",a>=b)#super set
+print("proper superset:",b>a)#super set
+print("superset or not:",b>=a)#super set
+print("proper superset:",a>b)#super set
+OUTPUT:
+Selection deleted
+#by using conditional operators
+a={1,2}
+b={1,2,3,4,5}
+print("subset or not:",a<=b)#subset
+print("proper subset or not:",a<b)#subset
+print("proper subset or not:",b<a)#subset
+print("subset or not:",b<=a)#subset
+print("superset or not:",a>=b)#super set
+print("proper superset:",b>a)#super set
+print("superset or not:",b>=a)#super set
+print("proper superset:",a>b)#super set
+
+subset or not: True
+proper subset or not: True
+proper subset or not: False
+subset or not: False
+superset or not: False
+proper superset: True
+superset or not: True
+proper superset: False
+///
